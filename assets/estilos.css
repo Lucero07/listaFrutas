@@ -1,16 +1,48 @@
-
-h1 {
-    color: #FF0000;
-    font-size: 30px;
-    text-align: center;
+*{
+margin: 10px;
+padding: 5px;
 }
+h1 {
+    color: #000080;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+}
+
+body{
+background-color:#87CEFA;
+-webkit-animation: mymove 5s infinite;
+animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+from {background-color: #90EE90;}
+to {background-color: 	#E0FFFF;}
+}
+
 
 p {
+background-image: url("fondo.jpg");
+/*
+  background-repeat: repeat-x;
+  background-position:fixed;
+  background-size: 25px 50px;
+  background-size: 50% 50%;*/
     font-family: verdana;
-    font-size: 26px;
+    font-size: 18px;
+    color: 	#000000;
 }
 b{
-      color: #7039A5;
+  font-style: oblique;
+}
+span {
+   border: 3px solid black;
+   background-color: lightblue;
+    color: 	#000000;
+    font-size: 28px;
+    text-align: right;
+    font-style: cursive;
 }
 ol{
   font-family:fantasy;
@@ -22,7 +54,6 @@ ol{
 div{
   font-family:fantasy;
   font-size: 18px;
-  background-color: 	#32CD32;
   color: #000080;
   text-align: justify;
 }
